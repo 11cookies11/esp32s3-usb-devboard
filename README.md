@@ -18,6 +18,7 @@ This repository separates the editable design source from generated manufacturin
 - `design/ProPrj_ESP32S3_USB_2026-05-20.epro2` - EasyEDA Pro source project
 - `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip` - Gerber and drill package
 - `manufacturing/gerber/PCB2_2026-05-20/` - Expanded fabrication package for browsing
+- `manufacturing/3d/3D_PCB2_2026-05-20.step` - 3D board model exported from EasyEDA Pro
 - `docs/PCB下单必读.txt` - Original PCB order note extracted from the fab package
 
 ## Project Notes
@@ -26,6 +27,7 @@ This repository separates the editable design source from generated manufacturin
 - The introduction inside the source archive describes it as an ESP32-S3 development board.
 - The Gerber package includes fabrication files and a small order note file.
 - The expanded gerber folder contains top/bottom copper, solder mask, silkscreen, outline, drill, and flying-probe data.
+- The STEP model can be used for enclosure checks, assembly previews, and render generation.
 
 ## Suggested Feature Summary
 

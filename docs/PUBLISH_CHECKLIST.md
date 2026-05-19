@@ -28,6 +28,7 @@ Before publishing the repository, make sure these items are present.
 - [x] `design/ProPrj_ESP32S3_USB_2026-05-20.epro2`
 - [x] `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip`
 - [x] `manufacturing/gerber/PCB2_2026-05-20/`
+- [x] `manufacturing/3d/3D_PCB2_2026-05-20.step`
 - [x] `LICENSE`
 - [x] Root `README.md`
 - [x] `docs/PCB下单必读.txt`
