@@ -13,6 +13,7 @@ Current published assets:
 - `design/ProPrj_ESP32S3_USB_2026-05-20.epro2` - Editable EasyEDA Pro project archive
 - `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip` - Gerber and drill package
 - `manufacturing/gerber/PCB2_2026-05-20/` - Expanded fabrication files for inspection
+- `manufacturing/bom/BOM_ESP32S3FN8_USB_PCB2_2026-05-20.xlsx` - Bill of materials export
 - `manufacturing/3d/3D_PCB2_2026-05-20.step` - PCB 3D model exported from EasyEDA Pro
 - `docs/PCB下单必读.txt` - Original PCB ordering note from the fab package
 
