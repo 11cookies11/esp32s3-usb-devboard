@@ -1,0 +1,49 @@
+# KiCad
+fp-info-cache
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.pcb-bak
+*.net
+*.drc
+*.erc
+*.lck
+*.LCK
+*.tmp
+*.bak
+
+# Common build / export outputs
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.pdf
+*.html
+*.log
+
+# EasyEDA Pro / hardware design outputs
+*.bak
+*.tmp
+*.swp
+*.swo
+*.autosave
+*.lock
+*.lck
+*.cache
+*.zip~
+*~$*
+
+# Local editor / OS clutter
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated release archives can be committed when intentionally created.
+# Uncomment these if you want to keep the repo source-only by default.
+# /manufacturing/**/*.zip
+# /manufacturing/**/*.tar
+# /manufacturing/**/*.gz
