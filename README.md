@@ -17,6 +17,7 @@ This repository publishes the editable source, fabrication outputs, and supporti
 - `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip` - fabrication-ready Gerber package
 - `manufacturing/gerber/PCB2_2026-05-20/` - expanded Gerber and drill files for inspection
 - `manufacturing/bom/BOM_ESP32S3FN8_USB_PCB2_2026-05-20.xlsx` - BOM export
+- `manufacturing/pnp/PickAndPlace_PCB2_2026_05_20.xlsx` - pick-and-place / centroid export
 - `manufacturing/3d/3D_PCB2_2026-05-20.step` - 3D board model export
 - `docs/PCB下单必读.txt` - PCB ordering note extracted from the fab package
 
