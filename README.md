@@ -1,68 +1,63 @@
 # ESP32S3_USB
 
-Open-source ESP32-S3 development board project designed in EasyEDA Pro.
+Open-source ESP32-S3 development board designed in EasyEDA Pro.
 
-This repository keeps the editable design source, manufacturing outputs, and release notes separate so the project is easy to review, reproduce, and publish.
+This repository publishes the editable source, fabrication outputs, and supporting documents in one place so the board is easy to review, build, and reuse.
 
-## Project Summary
+## At A Glance
 
-ESP32S3_USB is an open-source ESP32-S3 development board.
+- Project: `ESP32S3_USB`
+- Platform: ESP32-S3
+- CAD tool: EasyEDA Pro
+- License: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
 
-Current published assets:
+## Included Files
 
-- `design/ProPrj_ESP32S3_USB_2026-05-20.epro2` - Editable EasyEDA Pro project archive
-- `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip` - Gerber and drill package
-- `manufacturing/gerber/PCB2_2026-05-20/` - Expanded fabrication files for inspection
-- `manufacturing/bom/BOM_ESP32S3FN8_USB_PCB2_2026-05-20.xlsx` - Bill of materials export
-- `manufacturing/3d/3D_PCB2_2026-05-20.step` - PCB 3D model exported from EasyEDA Pro
-- `docs/PCB下单必读.txt` - Original PCB ordering note from the fab package
+- `design/ProPrj_ESP32S3_USB_2026-05-20.epro2` - editable EasyEDA Pro project archive
+- `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip` - fabrication-ready Gerber package
+- `manufacturing/gerber/PCB2_2026-05-20/` - expanded Gerber and drill files for inspection
+- `manufacturing/bom/BOM_ESP32S3FN8_USB_PCB2_2026-05-20.xlsx` - BOM export
+- `manufacturing/3d/3D_PCB2_2026-05-20.step` - 3D board model export
+- `docs/PCB下单必读.txt` - PCB ordering note extracted from the fab package
 
-## What This Repository Contains
+## What The Repo Is Organized For
 
-- `design/` for the editable source archive
-- `manufacturing/` for fabrication and assembly outputs
-- `docs/` for build, ordering, and release notes
-- `mechanical/` for enclosure or bracket files
-- `assets/` for images and diagrams
-- `releases/` for frozen release snapshots
+- `design/` keeps the source project that you edit in EasyEDA Pro
+- `manufacturing/` keeps release artifacts for PCB fabrication and assembly
+- `docs/` keeps human-readable notes, ordering guidance, and release support files
+- `mechanical/` keeps enclosure and bracket assets
+- `assets/` keeps pictures, diagrams, and presentation material
+- `releases/` keeps frozen snapshots for published versions
 
-## How To Use It
+## Typical Use
 
-1. Open the `design/` archive in EasyEDA Pro when you want to inspect or edit the source.
-2. Use the files under `manufacturing/gerber/` to order PCBs.
-3. Use the STEP file in `manufacturing/3d/` for enclosure checks or assembly previews.
-4. Read `docs/PCB下单必读.txt` before placing a PCB order.
-5. Publish frozen snapshots under `releases/` when you are ready to tag a version.
+1. Open the EasyEDA Pro archive from `design/` if you need to inspect or revise the schematic or PCB.
+2. Send the files in `manufacturing/gerber/` to your board house.
+3. Use the BOM in `manufacturing/bom/` for sourcing and assembly.
+4. Use the STEP model in `manufacturing/3d/` for enclosure fit checks and assembly previews.
+5. Read `docs/PCB下单必读.txt` before placing an order.
 
-## Likely Board Features
+## Likely Board Characteristics
 
-Verify these against the actual schematic before presenting the project as finished:
+These are the expected characteristics of the board, based on the current project name and exported files. Verify them against the schematic before describing the board publicly.
 
-- ESP32-S3 based development board
-- USB-connected programming and debugging
-- Power input and regulation section
+- ESP32-S3 development board
+- USB-based programming and debugging
+- Power regulation section
 - General-purpose I/O broken out for prototyping
 - Expansion headers for peripherals or modules
 
-## Keep In Git
+## Source Of Truth
 
-- The EasyEDA Pro local project archive
-- Gerber, drill, and assembly outputs
-- BOM and placement files
-- STEP or other 3D exports
-- Documentation that helps other people build or review the board
-- The project license
+For the current public snapshot, the key artifacts are:
 
-## Leave Out Of Git
-
-- Autosave, temp, cache, and lock files
-- Local editor settings
-- Private keys, tokens, or credentials
-- Machine-specific clutter
-- Reproducible build artifacts that are not part of a release
+- Source: `design/ProPrj_ESP32S3_USB_2026-05-20.epro2`
+- Fabrication: `manufacturing/gerber/Gerber_PCB2_2026-05-20.zip`
+- BOM: `manufacturing/bom/BOM_ESP32S3FN8_USB_PCB2_2026-05-20.xlsx`
+- 3D: `manufacturing/3d/3D_PCB2_2026-05-20.step`
 
 ## License
 
 This repository uses `CERN Open Hardware Licence Version 2 - Strongly Reciprocal`.
 
-That license is a good fit when you want hardware derivatives to remain open.
+That is a good fit when you want derivative hardware to remain open.
